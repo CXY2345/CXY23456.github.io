@@ -1,0 +1,912 @@
+
+.inner_content_star{width:1002px; margin:0 auto;}
+.inner_box{}
+
+/*------------------ sidebar-left -------------------*/
+.sidebar_A   {
+	 width:217px; float:left;  padding:15px 0 0 0;
+
+
+
+}
+
+/*------------------ menu -------------------*/
+
+.menu_ove  {
+	 width:100%; margin-bottom:10px;
+
+
+}
+.menu  {
+	 width:100%;
+
+
+}
+ 
+.menu .theTitle  {
+	  height:37px; background: url(../images/bg01.jpg) no-repeat;
+
+
+}
+.menu .theTitle h5 {
+	 font-size:14px; color:#FFF; line-height:37px; padding:0 0 0 53px;
+
+
+}
+
+.menu .theContent  {
+ border: 1px solid #dcd8d9; border-top:none;
+
+
+} 
+
+.menu .text  {
+	 padding:0 0 10px 0;
+
+
+}
+.menu .text ul  {
+	 width:100%;
+
+
+}
+.menu .text ul li  {
+	 width:190px; border-bottom:1px dashed #dbdbdb;
+margin:0 auto; padding:10px 0 5px 0;
+
+
+}
+.menu .text ul li a  {
+	 height:20px; color:#000; display:block; line-height:20px; 
+padding:0 0 0 40px; background:url(../images/icon02.jpg) left center no-repeat; background-position:20px 5px; text-decoration:none;
+
+
+}
+.menu .text ul li a:hover  {
+	 color:#0499c3; text-decoration:none;
+
+
+}
+.menu .text ul li.current a{
+	color:#ff7e00; text-decoration:none;
+	
+}
+.menu .text ul li.current ul li a{
+	color:#000; text-decoration:none;
+	
+}
+
+.menu .text ul li ul  {
+	 display:none;
+
+
+}
+.menu .text ul li ul li  {
+	 background:none;border:none;
+
+
+}
+.menu .text ul li ul li a  {
+	 height:20px; color:#000; display:block; background:none; 
+line-height:20px; padding:0 0 0 50px;
+
+
+}
+
+.menu .theBottom {
+	
+
+
+}
+
+/*------------------ touch -------------------*/
+.touch_ove  {
+	 width:100%;
+
+
+}
+.touch  {
+	 width:100%;
+
+
+}
+.touch .theTitle  {
+	  height:37px; background: url(../images/bg01.jpg) no-repeat;
+
+
+}
+.touch .theTitle h5 {
+	 font-size:14px; color:#FFF; line-height:37px; padding:0 0 0 53px;
+
+
+}
+
+
+.touch .theContent{
+	 border: 1px solid #dcd8d9; border-top:none;
+
+
+}
+.touch .text  {
+ padding:0 0 10px 0;
+
+
+}
+ .touch .text p  {
+	 line-height:22px; overflow:hidden; word-break:break-all; padding:10px 15px; color:#000;
+
+
+}
+
+.touch .theBottom {
+	 
+}
+
+
+/*------------------ sidebar-right -------------------*/
+
+.sidebar_B  {
+	 width:740px; float:right; padding:15px 0 0 0;
+
+
+}
+.list_content_ove  {
+	 width:100%; 
+
+
+}
+.list_content  {
+	 width:100%; 
+
+
+}
+
+.list_content .inner_title{ width:100%;}
+.list_content .inner_title .text {
+	 width:100%; border-bottom:1px solid #bfb7b5; height:25px; line-height:25px;
+
+
+}
+.list_content .inner_title .text h5 {
+	 font-size:14px; color:#0499c4; float:left; height:25px; line-height:25px; padding:0 0 0 20px;
+;background:url(../images/icon03.jpg) 5px 2px no-repeat; 
+
+
+}
+.list_content .inner_title .text span {
+	 float:right; color:#000; 
+
+
+}
+.list_content .inner_title .text span a  {
+	 color:#5b5b5b; text-decoration:none;
+
+
+}
+.list_content .inner_title .text span a:hover  {
+	 color:#5b5b5b; text-decoration:underline;
+
+
+}
+
+.list_content .inner_content  {
+	 width:100%;
+
+
+}
+.list_content .inner_content .text  {
+	 width:100%;
+
+
+}
+
+.list_content .inner_bottom  {
+	 width:100%;
+
+
+}
+
+/*------------------ Page -------------------*/
+
+.page   {
+	 padding:15px 7px; margin: 3px; text-align: center; clear:both; overflow:auto; _height:1%;
+
+
+}
+.page a   {
+	 border:1px solid #aca8a3; padding:4px 7px;  margin: 2px; color: #000000;  text-decoration: none;
+
+
+}
+.page a:hover   {
+	 border:1px solid #4d4d4d;  color: #fff;  background-color: #575149
+
+
+}
+.page a:active   {
+	 border:1px solid #aca8a3;  color: #fff; background-color: #575149
+
+
+}
+.page span.current  {
+	 border:1px solid #4d4d4d; padding:4px 7px; font-weight: bold;  margin: 2px; color: #fff;   background-color: #575149;
+
+
+}
+.page span.disabled   {
+	 border:1px solid  #cccccc ; padding:4px 7px;  margin: 2px;  color: #cccccc; 
+
+
+}
+
+/*------------------ listAbout -------------------*/
+
+.list_about  {
+	 padding:30px;
+
+
+}
+
+
+/*------------------list_news -------------------*/
+.list_news  {
+	 padding:20px;
+
+
+}
+.list_news ul  {
+	 
+}
+.list_news ul li  {
+	 background:url(../images/icon_03.gif) 6px center no-repeat; height:22px; line-height:22px; padding:0 0 0 13px; border-bottom:1px dashed #d9d9d9; 
+margin:0 0 10px 0;
+
+
+}
+.list_news ul li span  {
+	 float:right; color:#a2a2a2;
+
+
+}
+.list_news ul li a  {
+	 color:#000; text-decoration:none;
+
+
+}
+.list_news ul li a:hover  {
+	 color:#000; text-decoration:underline;
+
+
+}
+
+/*------------------ list_news_show -------------------*/
+.list_news_show  {
+	 padding:30px 50px;
+
+
+}
+.list_news_show_head  {
+	 
+}
+.list_news_show_head .title  {
+	 font-size:16px; text-align:center; color:#000;
+
+
+}
+.list_news_show_head .form_time  {
+	 padding:20px 0 0 0; 
+
+}
+.list_news_show_head .form  {
+	 float:left; color:#9c9c9c;
+
+
+}
+.list_news_show_head .time  {
+	 float:right; color:#9c9c9c;
+
+
+}
+
+
+.list_new_show_content  {
+	 padding:20px 10px;_padding:10px 10px 20px 10px; clear:both;
+
+
+}
+.list_new_show_footer  {
+	 padding:20px 10px;
+
+
+}
+.list_new_show_footer .next  {
+	 float:left;
+
+
+}
+.list_new_show_footer .prev  {
+	 float:right;
+
+
+}
+
+/*------------------ list_product -------------------*/
+.list_product  {
+
+
+
+}
+.list_product ul  {
+	 
+}
+.list_product pic1{width:40px; height:200px;}
+.list_product picwenzi1{width:400px; height:250px;}
+.list_product ul li  {
+	 width:159px; float:left; text-align:center; padding:0 0 20px 21px;
+
+
+}
+.list_product ul li .pic  {
+	 width:155px; height:126px; border:2px solid #fff; margin:0 auto; display: table-cell; vertical-align:middle;text-align:center;
+*display: block; *font-size:109px;/*约为高度的0.873，126*0.873 约为109*/  *font-family:Arial; background:#f5f5f5;
+
+} 
+ 
+.list_product ul li .pic img{ vertical-align:middle;}
+.list_product ul li .pic:hover{border:2px solid #757575;}
+
+.list_product ul li p  {
+	 padding:12px 0 0 0; text-align:center;
+
+}
+.list_product ul li p a{ color:#000; text-decoration:nonoe;}
+.list_product ul li p a:hover{ color:#000; text-decoration:underline}
+
+/*------------------ list_product_show  -------------------*/
+.list_product_show  {
+	 padding:20px 0 0 0;
+
+
+}
+.product_show_head  {
+	 
+}
+.product_thumbnail  {
+	 width:252px; float:left; padding:0 0 0 50px;
+
+
+}
+
+
+.product_thumbnail #mainbody  {
+	 width:244px;border:1px solid #c2c2c2;padding:3px; background:#FFF;
+
+
+}
+.product_thumbnail #mainphoto   {
+	 cursor:pointer;display:block;
+
+
+}
+.product_thumbnail .arrow-left  {
+	 width:11px; float:left;margin:6px 5px 0 3px; display:inline;
+
+
+}
+.product_thumbnail .arrow-right  {
+	 width:11px; float:right;margin:6px 3px 0 5px; display:inline;
+
+
+}
+.product_thumbnail #photos   {
+	 width:206px;height:54px;line-height:54px;margin:6px 0 0 0; float:left;display:inline; overflow:hidden;
+
+
+}
+.product_thumbnail #showArea a img  {
+	 margin:1px 0 1px 6px;cursor:pointer;border:2px solid #fff; float:left;
+
+
+}
+.product_thumbnail #showArea a:hover img  {
+	 cursor:pointer;border:2px solid #999;
+
+
+}
+
+
+.prodcut_summary  {
+	 width:360px; float:right; padding:0 30px 0 0;
+
+
+}
+.prodcut_summary .title  {
+	 font-size:14px; color:#2cadcd; padding:10px 0 10px 10px; background:#e3dece;
+
+
+}
+.prodcut_summary li  {
+	  padding:12px 0 6px 10px; _padding:10px 0 5px 10px; border-bottom:1px dashed #cfcfcf; display:block;
+
+
+}
+.prodcut_summary li span  {
+	 padding:0 0 0 10px;
+
+
+}
+.prodcut_summary li .orange  {
+	 font-size:14px; font-weight:bold; color:#2cadcd; 
+
+
+}
+ .prodcut_summary li .green  {
+	 color:#0c9601;
+
+
+}
+.prodcut_summary input.btn  {
+	 width:75px; height:34px; background:url(../images/btn.gif) no-repeat;
+border:medium none; cursor:pointer; line-height:34px; text-align:center; color:#f86619; margin:20px 0 0 10px;
+
+
+}
+
+
+
+.list_product_show  .product_show_content  {
+	 width:100%; clear:both; padding:40px 0 0 0;
+
+
+}
+.product_details  {
+	 padding:0 20px;
+
+
+}
+.product_details .title, .products_related .title {
+	 border-bottom:2px solid #e3dece; padding:0 0 5px 10px; font-size:14px; color:#2cadcd;
+
+
+}
+.product_attributes  {
+	 padding:10px 0 10px 10px; background: #e8e2d1; clear:both; margin:10px 25px; overflow:auto;  _height:1%
+
+
+} 
+.product_attributes li  {
+	 float: left; height: 26px; line-height: 26px; overflow: hidden;  padding: 0 5px 0 0; width:190px; display:block;
+
+
+}
+
+.product_description  {
+	 clear:both; padding:20px 30px;
+
+
+}
+
+
+.products_related {
+	 padding:20px 20px 0 20px;
+}
+
+.products_related_show  {
+	 padding:20px 0 20px 0; 
+
+
+}
+.products_related_show  ul  {
+	 
+}
+.products_related_show  ul li  {
+	 width:159px; float:left; text-align:center; padding:0 0 20px 21px;
+
+
+}
+.products_related_show  ul li .pic  {
+	 width:155px; height:126px; border:2px solid #fff; margin:0 auto; display: table-cell; vertical-align:middle;text-align:center;
+*display: block; *font-size:109px;/*约为高度的0.873，126*0.873 约为109*/  *font-family:Arial; background:#f5f5f5;
+
+} 
+.products_related_show  ul li .pic img{ vertical-align:middle;}
+.products_related_show  ul li .pic:hover{border:2px solid #757575;}
+
+.products_related_show  ul li p  {
+	 padding:12px 0 0 0; text-align:center;
+
+}
+.products_related_show ul li p a{ color:#000; text-decoration:none;}
+.products_related_show ul li p a:hover{ color:#000; text-decoration:underline}
+
+/*------------------ message -------------------*/
+.message  {
+	 padding:30px 0 0 20px;
+
+
+}
+.message li  {
+	 display:block; clear:both; padding:0 0 10px 0; overflow:auto;_height:1%
+
+
+}
+.message .input_name{
+	 width:100px; text-align:right; float:left; color:#282828;height:28px; line-height:28px;
+
+
+}
+.message .red  {
+	 color:#e20000;
+
+
+}
+.message .input_text  {
+	  float:left; padding:0 0 0 10px; 
+
+
+}
+
+.message .input_text input.formtext  {
+	 height:26px; border:1px solid #c0c0c0; background:#FFF; line-height:26px; padding:0 5px; float:left;
+
+
+}
+.message .input_text img  {
+	 margin:5px 0 0 10px;
+
+
+}
+.message .input_text input.btn  {
+	 width:68px; height:29px;  background:url(../images/btn_01.gif) no-repeat;border:medium none; cursor:pointer;
+	 line-height:29px; text-align:center; margin:10px 10px 0 0; 
+
+
+}
+.message .input_textarea  {
+	  float:left; padding:0 0 0 10px; 
+
+
+}
+.message .input_textarea  textarea  {
+	 border:1px solid #c0c0c0;  height:91px; background:url(../images/textarea_bg.gif) right bottom no-repeat;
+
+
+}
+
+.message .input_point{
+	 width:300px; float:left; padding:6px 0 0 0;
+
+}
+.message .input_point img {
+	 float:left; margin:0 5px 0 0;
+
+}
+
+
+
+.message_show  {
+	 padding:10px 10px 20px 10px;
+
+}
+.message_show .message_box  {
+	 border:1px solid #c0c0c0; background:#FFF; padding:1px; margin:10px 0 0 0;
+
+
+}
+.message_show .message_box .title  {
+	 background:#e3e3e3; height:30px; line-height:30px; 
+
+
+}
+.message_show .message_box .title h2  {
+	 font-size:14px; padding:0 0 0 15px;
+
+
+}
+.message_show .message_box .title span  {
+	 float:right; padding:0 10px 0 0;
+
+
+}
+.message_show .leave  {
+	 border-bottom:1px dashed #919191; margin:0 10px; padding:10px 0; line-height:20px;
+
+
+}
+.message_show .orange  {
+	 font-size:12px; font-weight:bold; color:#2cadcd;
+
+
+}
+.message_show .reply  {
+	 margin:0 10px; padding:10px 0; line-height:20px;
+
+
+}
+.message_show .btn {
+	width: 68px; height: 29px; background: url(../images/btn_01.gif) no-repeat;border: medium none;cursor: pointer;line-height: 29px;text-align: center; 
+	margin: 10px 10px 0 0;
+}
+
+
+/*------------------ Recruitment -------------------*/
+.recruitment  {
+	 margin:0 20px; padding:15px 0;
+
+
+}
+.recruitment li  {
+	
+}
+
+
+
+.recruitment li .post  {
+	 width:300px; float:left;text-align:left; padding:0 0 0 10px
+
+
+}
+.recruitment li .number  {
+	 width:95px; float:left;
+
+
+}
+.recruitment li .stamp  {
+	 width:95px; float:left; 
+
+
+}
+.recruitment li .region  {
+	 width:95px; float:left; 
+
+
+}
+.recruitment li .publish  {
+	 width:95px; float:left; 
+
+
+}
+.recruitment li.title  {
+	  color:#000; background:#76716a; color:#FFF
+
+
+}
+.recruitment li.current{ background:#e3dfd4;}
+
+.recruitment li a{color:#616161; text-decoration:none;}
+.recruitment li a:hover{ color:#000; text-decoration:underline;}
+
+/*------------------ Recruitment_list -------------------*/
+.recruitment_list  {
+	 padding:10px 0;font-size:12px; color:#000; width:100%; margin:0px; padding:0px; text-indent:0px;
+
+}
+
+.recruitment_list li { 
+    width:100%; display:inline;
+}
+
+
+.recruitment_list li p{ 
+     padding:5px 10px; line-height:20px;
+	 
+}
+
+.recruitment_list li a.head { 
+   cursor:pointer; border:1px solid #fff; background:#EFEFEF url(../images/job.gif) no-repeat scroll 12px 6px; display:block; 
+   font-size:12px; color:#000; text-decoration: underline; text-indent:14px;  padding:8px 0 10px 12px; height:27; margin:5px 0 1px 0;
+}
+
+.recruitment_list a.btn {
+	 width:84px; height:32px; display:block; background: url(../images/btn_resume.png) no-repeat;
+text-align:center; line-height:32px; color:#e22804; cursor:pointer;
+
+
+}
+
+.recruitment_list a.btn:hover{
+	background: url(../images/btn_resume_hover.png) no-repeat;
+	
+}
+
+.recruitment_list li a.head:hover {
+	background-color:#dbdbdb;
+}
+.recruitment_list li a.selected {
+	background-image: url(../images/job2.gif);
+}
+
+
+
+/*------------------ Recruitment_post -------------------*/
+
+.recruitment_post{padding:20px 0 0 0;}
+
+.recruitment_post li  {
+	 display:block; clear:both; padding:0 0 10px 0; overflow:auto;_height:1%
+
+
+}
+.recruitment_post li .input_name  {
+	 width:100px; text-align:right; float:left; color:#282828;height:24px; line-height:24px;
+
+
+}
+.recruitment_post li .red  {
+	 color:#e20000;
+
+
+}
+.recruitment_post li .input_text  {
+	 float:left; padding:0 0 0 10px; 
+
+
+}
+
+.recruitment_post li .input_text input.formtext  {
+	 height:22px; border:1px solid #c0c0c0; background:#FFF; line-height:22px; padding:0 5px; float:left;
+
+}
+#huise{
+	color:#ccc;
+}
+.recruitment_post li .input_point img  {
+	 margin:5px 0 0 10px;
+
+
+}
+.recruitment_post li .input_text input.btn  {
+	 width:68px; height:29px;  background:url(../images/btn_01.gif) no-repeat;border:medium none; cursor:pointer;
+	 line-height:29px; text-align:center; margin:10px 10px 0 0; 
+
+
+}
+.recruitment_post li .input_textarea  {
+	  float:left; padding:0 0 0 10px; 
+
+
+}
+.recruitment_post li .input_textarea  textarea  {
+	 border:1px solid #c0c0c0;  height:91px;
+
+
+}
+
+.recruitment_post li .input_point {
+	float:left; padding:6px 0 0 10px; color:#777777;
+
+}
+.recruitment_post li .input_point img {
+	 float:left; margin:0 5px 0 0;
+
+}
+
+/*------------------ Contact us -------------------*/
+.contact_us  {
+	 padding:20px 0 0 20px;font-size:14px;
+
+
+}
+.contact_us p  {
+	 line-height:30px; 
+
+
+}
+
+/*------------------ Links -------------------*/
+.links{ padding:20px 10px;}
+
+.links li{
+	 float:left; padding:10px 10px 5px 10px; white-space:nowrap;
+	
+}
+.links li img{ border:1px solid #FFF;}
+.links li span{display:block;padding:7px 0 0 0; text-align:center; }
+.links li a{
+	color:#0a0a0a; text-decoration:none; 
+}
+
+.links li a:hover{
+	color:#0a0a0a; text-decoration:underline;
+}
+
+/*------------------ Download -------------------*/
+
+
+
+
+.download{}
+
+.download_list{ padding:20px 20px;}
+.download_list li {height:34px; line-height:34px;  text-align:center; color:#616161;}
+.download_list li .post  {
+	 width:300px; float:left;text-align:left; padding:0 0 0 10px
+
+
+}
+.download_list li .number  {
+	 width:95px; float:left;
+
+
+}
+.download_list li .stamp  {
+	 width:95px; float:left; 
+
+
+}
+.download_list li .region  {
+	 width:95px; float:left; 
+
+
+}
+.download_list li .publish  {
+	 width:95px; float:left; 
+
+
+}
+
+.download_list li .publish a{ color:#000; text-decoration:underline;}
+.download_list li .publish a:hover{ color:#000; text-decoration:none;}
+
+.download_list li.title  {
+	  color:#000; background:#76716a; color:#FFF
+
+
+}
+.download_list li.current{ background:#e3dfd4;}
+
+.download_list li a{color:#616161; text-decoration:none;}
+.download_list li a:hover{ color:#000; text-decoration:underline;}
+
+
+
+
+
+
+.download_show{ padding:20px 20px; color:#1f1f1f;}
+
+.download .blue{
+	color:#028fd1;font-size:14px; 
+	
+}
+
+.information{
+	border-bottom:1px dashed #b2b1b1; padding:0 10px 10px 10px;
+	
+}
+.information li{
+	padding:20px 0 0 10px;
+
+}
+.information li.title{ 
+    background:#dfdbd2; padding:10px 0 10px 10px;
+}
+
+.downloads{
+	border-bottom:1px dashed #b2b1b1; padding:25px 10px 10px 10px;
+	
+}
+
+.downloads span{
+	display:inline-block; margin:0 5px;
+	
+}
+
+.downloads a.downlonad_btn{
+	display:inline-block; width:71px; height:29px; padding:0 0 0 18px; line-height:29px; text-align:center; color:#c65010; white-space:nowrap ; background:url(../images/download.png) no-repeat;
+	
+}
+
+.description{}
+
+.description_title{
+	border-bottom:1px dashed #b2b1b1; padding:25px 10px 10px 20px;
+	
+}
+.description_text{
+	 padding:15px 10px 10px 20px;
+	
+}
+.list_product .pic img{ width:157px; height:131px;}
+
+

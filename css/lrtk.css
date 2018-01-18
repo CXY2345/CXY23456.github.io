@@ -1,0 +1,13 @@
+/* CSS Document */
+
+a{color:#333;text-decoration:none}
+a:hover{color:#ef9b11;text-decoration:underline}
+
+.box{width:620px;margin:20px auto}
+.left-pro{width:650px; padding:10px 10px;border:1px solid #ccc;text-align:left;float:left}
+
+#showArea img{cursor:pointer;display:block;margin-bottom:5px;width:60px;padding:1px;border:1px solid #ccc;height:60px;float:left}
+#main_img{cursor:pointer;display:block}
+#gotop{cursor:pointer;display:block;margin-left:9px}
+#gobottom{cursor:pointer;display:block;margin-left:9px}
+#showArea{height:379px;margin:10px;overflow:hidden}

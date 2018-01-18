@@ -1,0 +1,335 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<title>个人主页</title>
+
+<link href="../css/global.css" rel="stylesheet" type="text/css" />
+<link href="../css/layout.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" language="Jscript" src="../js/jquery.js"></script>
+<script type="text/javascript" language="Jscript" src="../js/menu.js"></script>
+<script type="text/javascript" language="Jscript" src="../js/submenu.js"></script>
+
+
+<style type="text/css">
+body{font-family:"微软雅黑";
+}
+
+a{text-decoration:none;
+}
+
+
+a:hover{
+text-decoration:underline;
+}
+
+li{ list-style:none;}
+dl{display:none}
+:target{display:block}
+
+
+.one{color:#966}
+.two{color:#930}
+.TabTitle{ margin:0px auto;}
+.TabTitle li{ float:left; padding:0px 5px; background:#0CC; opacity:0.7; color:#fff; margin-right:10px; cursor:pointer;/*设定鼠标的形状为一只伸出食指的手*/}
+.TabTitle li a{ color:#fff; text-decoration:none;}
+</style>
+
+<script>
+// JavaScript Document
+function nTabs(thisObj,Num){
+if(thisObj.className == "active")return;
+var tabObj = thisObj.parentNode.id;
+var tabList = document.getElementById(tabObj).getElementsByTagName("li");
+for(i=0; i <tabList.length; i++)
+{
+if (i == Num)
+{
+   thisObj.className = "active"; 
+      document.getElementById(tabObj+"_Content"+i).style.display = "block";
+}else{
+   tabList[i].className = "normal"; 
+   document.getElementById(tabObj+"_Content"+i).style.display = "none";
+}
+}
+}
+</script>
+</head>
+
+<body>
+   
+   <div id="wrapper">
+            
+            <div id="header">
+    <div class="header_star">
+        
+      <div class="header_head">
+        <h1 class="logo"><font size="6" color=white>陈昕煜de个人主页</font></h1>
+        <div class="extra">
+          <div class="language"><a href="#">中文</a> | <a href="#">English</a></div>
+          <div class="search">
+            <div class="search_input">
+              <input name="input" type="text" value="" />
+            </div>
+            <div class="search_btn">
+              <input name="" type="button" maxlength="10"/>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+   
+      <div class="nav">
+        <div class="main_nav">
+          <div class="nav_inside">
+            <ul>
+              <li class="current"><a href="Index.html" >主页</a></li>
+              <li class="separated"></li>
+              <li><a href="about.html" onMouseover="dropdownmenu(this, event, 'anylinkmenu1')">个人简介</a></li>
+              <li class="separated"></li>
+              <li><a href="painting.html" onMouseover="dropdownmenu(this, event, 'anylinkmenu2')">作品集</a></li>
+              <li class="separated"></li>
+              <li><a href="picture.html" onMouseover="dropdownmenu(this, event, 'anylinkmenu3')">照片墙</a></li>
+              <li class="separated"></li>
+              <li><a href="message.html" onMouseover="dropdownmenu(this, event, 'anylinkmenu5')">在线留言</a></li>
+              <li class="separated"></li>
+              <li><a href="contact.html" onMouseover="dropdownmenu(this, event, 'anylinkmenu7')">联系我</a></li>
+            </ul>
+          </div>
+          <div id="anylinkmenu1" class="subnav">
+            <div class="subnav_bg"><a href="about.html">自我介绍</a></div>
+            <div class="subnav_bg"><a href="hobbies.html">兴趣爱好</a></div>
+           
+          </div>
+          <div id="anylinkmenu2" class="subnav">
+            <div class="subnav_bg"><a href="painting.html">素描</a></div>
+            <div class="subnav_bg"><a href="painting.html">水粉</a></div>
+            <div class="subnav_bg"><a href="painting.html">动漫</a></div>
+          </div>
+          <div id="anylinkmenu3" class="subnav">
+            <div class="subnav_bg"><a href="picture.html">鼓浪屿</a></div>
+            <div class="subnav_bg"><a href="picture.html">金门</a></div>
+            <div class="subnav_bg"><a href="picture.html">静安寺之旅</a></div>
+            <div class="subnav_bg"><a href="picture.html">云水谣写生</a></div>
+            <div class="subnav_bg"><a href="picture.html">校园风采</a></div>
+          </div>
+          <div id="anylinkmenu5" class="subnav">
+            <div class="subnav_bg"><a href="message_show.html">留言列表</a></div>
+          </div>
+        </div>
+      </div>
+      
+     
+      <div class="main_banner">
+        <div class="banner">
+           <div class="TabTitle" style=" width:1002px; height:389px; position:relative; margin:0px auto;">
+	<div style="position:absolute; bottom:10px; right:440px;">
+    	<ul class="TabTitle" id="myTab">
+            <li class="active" onMouseOver="nTabs(this,0);"><a href="javascript:">1</a></li>
+            <li class="normal" onMouseOver="nTabs(this,1);"><a href="javascript:">2</a></li>
+            <li class="normal" onMouseOver="nTabs(this,2);"><a href="javascript:">3</a></li>
+            <li class="normal" onMouseOver="nTabs(this,3);"><a href="javascript:">4</a></li>
+        </ul>
+	</div>
+	<div class="pose-box-Mytab">
+		<dl id="myTab_Content0" style="display:block;">
+            <dt><img src="../images/bg1.jpg" style="width:1002px; height:389px;"></dt>
+        </dl>
+        <dl id="myTab_Content1" style="display:none">
+            <dt><img src="../images/bg2.jpg" style="width:1002px; height:389px;"></dt>
+        </dl>
+        <dl id="myTab_Content2" style="display:none">
+            <dt><img src="../images/bg3.jpg" style="width:1002px; height:389px;"></dt>  
+		</dl>
+        <dl id="myTab_Content3" style="display:none">
+            <dt><img src="../images/bg4.png" style="width:1002px; height:389px;"></dt>
+		</dl>
+	</div>
+     </div>
+        </div>
+      </div>
+    </div>
+  </div>
+            
+            
+            
+             <!-- 中间 -->
+            
+            <div id="content">
+                 
+                 <div class="inner_content_star">  
+                      
+                     <div class="inner_box">
+                            <div class="sidebar_A">
+                            
+                                     <div class="menu_ove">
+                                                 <div class="menu">
+                                                            
+                                                            <div class="theTitle">
+                                                              <h5 >照片墙</h5>
+                                                            </div>
+                                                         
+                                                            
+                                                            <div class="theContent">
+                                                                      
+                                                                                   <div class="text">
+                                                                                               <ul class="sub-menu">
+                                                                                                  <li><a href="picture.html">鼓浪屿</a>
+                                                                                                      <ul>
+                                                                                                  <li><a href="picture.html">照片1</a> </li>
+                                                                                                  <li><a href="picture.html">照片2</a> </li>
+                                                                                                   <li><a href="picture.html">照片3</a> </li>
+                                                                                                   <li><a href="picture.html">照片4</a> </li>
+                                                                                               </ul>
+                                                                                                   </li>
+                                                                                                  <li><a href="picture.html">金门</a>
+                                                                                                      <ul>
+                                                                                                   <li><a href="picture.html">照片1</a> </li>
+                                                                                                   <li><a href="picture.html">照片2</a> </li>
+                                                                                                   <li><a href="picture.html">照片3</a> </li>
+ 		
+<li><a href="picture.html">照片4</a> </li>
+                                                                                               </ul>
+                                                                                                  </li>
+                                                                                                  <li><a href="picture.html">静安寺之旅</a>
+                                                                                                  <ul>
+                                                                                                  <li><a href="picture.html">照片1</a> </li>
+                                                                                                   <li><a href="picture.html">照片2</a> </li>
+                                                                                                   <li><a href="picture.html">照片3</a> </li>
+ 		
+<li><a href="picture.html">照片4</a> </li>
+                                                                                               </ul>
+                                                                                                  </li>
+                                                                                                   <li><a href="picture.html">云水谣写生</a>
+                                                                                                   <ul>
+                                                                                                   <li><a href="picture.html">照片1</a> </li>
+                                                                                                   <li><a href="picture.html">照片2</a> </li>
+                                                                                                   <li><a href="picture.html">照片3</a> </li>
+ 		
+<li><a href="picture.html">照片4</a> </li>                                                            
+</ul>
+                                                                                                   </li>
+
+<li><a href="picture.html">校园风采</a>
+                                                                                                   <ul>
+                                                                                                   <li><a href="picture.html">照片1</a> </li>
+                                                                                                   <li><a href="picture.html">照片2</a> </li>
+                                                                                                   <li><a href="picture.html">照片3</a> </li>
+ 		
+<li><a href="picture.html">照片4</a> </li>                                                     
+
+</ul>
+                                                                                                  </li>
+                                                                                               </ul>
+                                                                                   </div>
+                                                                       
+                                                            </div>
+                                                            
+                                                            <div class="theBottom "></div>
+                                                 </div>                   
+                                     </div>
+                                     
+                                     <div class="touch_ove">
+                                                 <div class="touch">
+                                                           <div class="theTitle"><h5 >关于我</h5></div>
+                                                          
+                                                         
+                                                                       <div class="theContent">
+                                                                               <div class="text">
+                                                                                           <p>mobilephone:152596xxxxxx<Br />
+QQ：10293xxxxx<Br />
+wecahat:152596xxxxxx<Br />
+                                                                                           </p>
+                                                                               </div>
+                                                                       </div>
+                                                         
+                                                          
+                                                          <div class="touch_footer"></div>
+                                                 </div>
+                                     
+                                     </div>
+                                              
+                            
+                            </div>
+                            
+                            
+                            
+                            <div class="sidebar_B">
+                                         <div class="list_content_ove">
+                                                     <div class="list_content">
+                                                     
+                                                                <div class="inner_title"> 
+                                                                 <div class="text">
+                                                                  <h5>兴趣爱好</h5> <span>您当前位置：<a href="Index.html">主页</a> > <a href="hobbies.html">兴趣爱好</a></span> 
+                                                                   </div>
+                                                                 </div>
+                                                                 
+                                                                 
+                                                                 
+<div class="inner_content">
+<div class="text">
+                                                                             
+<div class="list_product">
+
+<ul>
+                                                                                         
+<li>
+
+<p><font size="3">阅读</font></p><div><img src="../images/yuedu.jpg" width="170" height="170"/></div><p>独自生活的难处，在于不管弄出什么样的烂摊子，都不得不自己清理。不，独自生活的真正难处在于没人在乎你是否心烦意乱。 ——加布瑞埃拉·泽文《岛上书店》</p></li>
+                                                                                         
+<li>
+
+<p><font size="3">音乐</font></p><div><img src="../images/yinyue.jpg" width="170" height="170"/></div><p>从头细数命运由什么铸成，心境每秒在注释生命。——杨千嬅《火鸟》</p></li>                                                                                         
+<li>
+
+<p><font size="3">电影</font></p><div><img src="../images/dianying.jpg" width="170" height="170"/></div><p>念念不忘，必有回响，有一口气，点一盏灯，有灯就有人。——王家卫《一代宗师》</p></li>
+                                                                                         
+<li>
+
+<p><font size="3">动漫</font></p><div><img src="../images/dongman.jpg" width="170" height="170"/></div><p>真是有精神啊，是不是发生了什么好事?。——忍野咩咩《化物语》</p></li>
+                                                                                     
+</ul>
+                                                                                  
+</div>                                                                               
+ 
+</div>
+                                                                             
+</div>
+                                                                 
+                                                                 
+                                                                 
+                                                                 <div class="inner_bottom"></div>
+                                                                 
+                                                     </div>
+                                         </div>    
+                             
+                            </div>
+                            
+                            <div class="clear"></div>
+                            
+                  </div>   
+                  
+                  </div>
+                  
+                  
+            </div>
+            
+            
+            
+            
+            
+            <div class="clear"></div>
+            <div id="footer">
+    <div class="footer_text">
+            <div class="footer_nav"><a href="about.html">个人简介</a> | <a href="painting.html">作品集</a> | <a href="picture.html">照片墙</a> | <a href="message.html">在线留言</a> | <a href="contact.html">联系我</a> | <a href="#">友情链接</a></div>
+      <div class="copyright">Powered By 陈昕煜</div>
+    </div>
+  </div>
+   
+   </div>
+   
+
+</body>
+</html>
+

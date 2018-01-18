@@ -1,0 +1,292 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>个人主页</title>
+<link href="../css/global.css" rel="stylesheet" type="text/css" />
+<link href="../css/layout.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" language="Jscript" src="../js/jquery.js"></script>
+<script type="text/javascript" language="Jscript" src="../js/menu.js"></script>
+<script type="text/javascript" language="Jscript" src="../js/submenu.js"></script>
+<script type="text/javascript" src="../js/mzp-packed.js"></script>
+<link href="../css/lrtk.css" type="text/css" rel="stylesheet">
+<link href="../css/magiczoomplus.css" type="text/css" rel="stylesheet">
+<script type="text/javascript" src="../js/lrtk.js"></script>
+
+<style type="text/css">
+body{font-family:"微软雅黑";
+
+
+}
+
+a{text-decoration:none;
+}
+
+
+a:hover{
+text-decoration:underline;
+}
+
+li{ list-style:none;}
+dl{display:none}
+:target{display:block}
+
+
+.one{color:#966}
+.two{color:#930}
+.TabTitle{ margin:0px auto;}
+.TabTitle li{ float:left; padding:0px 5px; background:#0CC; opacity:0.7; color:#fff; margin-right:10px; cursor:pointer;/*设定鼠标的形状为一只伸出食指的手*/}
+.TabTitle li a{ color:#fff; text-decoration:none;}
+</style>
+
+<script>
+// JavaScript Document
+function nTabs(thisObj,Num){
+if(thisObj.className == "active")return;
+var tabObj = thisObj.parentNode.id;
+var tabList = document.getElementById(tabObj).getElementsByTagName("li");
+for(i=0; i <tabList.length; i++)
+{
+if (i == Num)
+{
+   thisObj.className = "active"; 
+      document.getElementById(tabObj+"_Content"+i).style.display = "block";
+}else{
+   tabList[i].className = "normal"; 
+   document.getElementById(tabObj+"_Content"+i).style.display = "none";
+}
+}
+}
+</script>
+
+</head>
+
+<body>
+<div id="wrapper">
+  <div id="header">
+    <div class="header_star">
+      <div class="header_head">
+        <h1 class="logo"><font size="6" color=white>陈昕煜de个人主页</font></h1>
+        <div class="extra">
+          <div class="language"><a href="#">中文</a> | <a href="#">English</a></div>
+          <div class="search">
+            <div class="search_input">
+              <input name="input" type="text" value="" />
+            </div>
+            <div class="search_btn">
+              <input name="" type="button" maxlength="10"/>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="nav">
+        <div class="main_nav">
+          <div class="nav_inside">
+            <ul>
+             <li class="current"><a href="Index.html" >主页</a></li>
+              <li class="separated"></li>
+              <li><a href="about.html" onMouseover="dropdownmenu(this, event, 'anylinkmenu1')">个人简介</a></li>
+              <li class="separated"></li>
+              <li><a href="painting.html" onMouseover="dropdownmenu(this, event, 'anylinkmenu2')">作品集</a></li>
+              <li class="separated"></li>
+              <li><a href="picture.html" onMouseover="dropdownmenu(this, event, 'anylinkmenu3')">照片墙</a></li>
+              <li class="separated"></li>
+              <li><a href="message.html" onMouseover="dropdownmenu(this, event, 'anylinkmenu5')">在线留言</a></li>
+              <li class="separated"></li>
+              <li><a href="contact.html" onMouseover="dropdownmenu(this, event, 'anylinkmenu7')">联系我</a></li>
+            </ul>
+          </div>
+          <div id="anylinkmenu1" class="subnav">
+            <div class="subnav_bg"><a href="about.html">自我介绍</a></div>
+            <div class="subnav_bg"><a href="hobbies.html">兴趣爱好</a></div>
+           
+          </div>
+          <div id="anylinkmenu2" class="subnav">
+            <div class="subnav_bg"><a href="painting.html">素描</a></div>
+            <div class="subnav_bg"><a href="painting.html">水粉</a></div>
+            <div class="subnav_bg"><a href="painting.html">动漫</a></div>
+          </div>
+          <div id="anylinkmenu3" class="subnav">
+            <div class="subnav_bg"><a href="picture.html">鼓浪屿</a></div>
+            <div class="subnav_bg"><a href="picture.html">金门</a></div>
+            <div class="subnav_bg"><a href="picture.html">静安寺之旅</a></div>
+            <div class="subnav_bg"><a href="picture.html">云水谣写生</a></div>
+            <div class="subnav_bg"><a href="picture.html">校园风采</a></div>
+          </div>
+          <div id="anylinkmenu5" class="subnav">
+            <div class="subnav_bg"><a href="message_show.html">留言列表</a></div>
+          </div>
+      </div>
+      
+   <div class="main_banner">
+        <div class="banner">
+                     <div class="TabTitle" style=" width:1002px; height:389px; position:relative; margin:0px auto;">
+	<div style="position:absolute; bottom:10px; right:440px;">
+    	<ul class="TabTitle" id="myTab">
+            <li class="active" onMouseOver="nTabs(this,0);"><a href="javascript:">1</a></li>
+            <li class="normal" onMouseOver="nTabs(this,1);"><a href="javascript:">2</a></li>
+            <li class="normal" onMouseOver="nTabs(this,2);"><a href="javascript:">3</a></li>
+            <li class="normal" onMouseOver="nTabs(this,3);"><a href="javascript:">4</a></li>
+        </ul>
+	</div>
+	<div class="pose-box-Mytab">
+		<dl id="myTab_Content0" style="display:block;">
+            <dt><img src="../images/bg1.jpg" style="width:1002px; height:389px;"></dt>
+        </dl>
+        <dl id="myTab_Content1" style="display:none">
+            <dt><img src="../images/bg2.jpg" style="width:1002px; height:389px;"></dt>
+        </dl>
+        <dl id="myTab_Content2" style="display:none">
+            <dt><img src="../images/bg3.jpg" style="width:1002px; height:389px;"></dt>  
+		</dl>
+        <dl id="myTab_Content3" style="display:none">
+            <dt><img src="../images/bg4.jpg" style="width:1002px; height:389px;"></dt>
+		</dl>
+	</div>
+     </div>
+     
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- 中间 -->
+  <div id="content">
+    <div class="inner_content_star">
+      <div class="inner_box">
+        <div class="sidebar_A">
+          <div class="menu_ove">
+            <div class="menu">
+              <div class="theTitle">
+                <h5 >照片墙</h5>
+              </div>
+              <div class="theContent">
+                <div class="text">
+                  <ul class="sub-menu">
+                     <li><a href="picture.html">鼓浪屿</a>
+                                                                                                      <ul>
+                                                                                                  <li><a href="picture.html">照片1</a> </li>
+                                                                                                  <li><a href="picture.html">照片2</a> </li>
+                                                                                                   <li><a href="picture.html">照片3</a> </li>
+                                                                                                   <li><a href="picture.html">照片4</a> </li>
+                                                                                               </ul>
+                                                                                                   </li>
+                                                                                                  <li><a href="picture.html">金门</a>
+                                                                                                      <ul>
+                                                                                                   <li><a href="picture.html">照片1</a> </li>
+                                                                                                   <li><a href="picture.html">照片2</a> </li>
+                                                                                                   <li><a href="picture.html">照片3</a> </li>
+ 		
+<li><a href="picture.html">照片4</a> </li>
+                                                                                               </ul>
+                                                                                                  </li>
+                                                                                                  <li><a href="picture.html">静安寺之旅</a>
+                                                                                                  <ul>
+                                                                                                  <li><a href="picture.html">照片1</a> </li>
+                                                                                                   <li><a href="picture.html">照片2</a> </li>
+                                                                                                   <li><a href="picture.html">照片3</a> </li>
+ 		
+<li><a href="picture.html">照片4</a> </li>
+                                                                                               </ul>
+                                                                                                  </li>
+                                                                                                   <li><a href="picture.html">云水谣写生</a>
+                                                                                                   <ul>
+                                                                                                   <li><a href="picture.html">照片1</a> </li>
+                                                                                                   <li><a href="picture.html">照片2</a> </li>
+                                                                                                   <li><a href="picture.html">照片3</a> </li>
+ 		
+<li><a href="picture.html">照片4</a> </li>                                                            
+</ul>
+                                                                                                   </li>
+
+<li><a href="picture.html">校园风采</a>
+                                                                                                   <ul>
+                                                                                                   <li><a href="picture.html">照片1</a> </li>
+                                                                                                   <li><a href="picture.html">照片2</a> </li>
+                                                                                                   <li><a href="picture.html">照片3</a> </li>
+ 		
+<li><a href="picture.html">照片4</a> </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+        
+
+<div class="theBottom "></div>
+            </div>
+          </div>
+          <div class="touch_ove">
+            <div class="touch">
+              <div class="theTitle">
+                <h5 >关于我</h5>
+              </div>
+              <div class="theContent">
+                <div class="text">
+                  <p>mobilephone:152596xxxxxx<Br />
+QQ：10293xxxxx<Br />
+wecahat:152596xxxxxx<Br />
+                  </p>
+                </div>
+              </div>
+              <div class="touch_footer"></div>
+            </div>
+          </div>
+        </div>
+        <div class="sidebar_B">
+          <div class="list_content_ove">
+            <div class="list_content">
+              <div class="inner_title">
+                <div class="text">
+                  <h5>照片1详情</h5>
+                  <span>您当前位置：<a href="Index.html">主页</a> > <a href="picture1.html">照片1详情</span> </div>
+              </div>
+              <div class="inner_content">
+                <div class="text">
+                  <div class="list_product">
+                    <div class="box">
+                      <div class="left-pro"> <a href="../images/gulangyu1.jpg" id="zoom1" class="MagicZoom MagicThumb" style="position: relative; display: block; outline: 0px; text-decoration: none; width: 320px; float:left;"><img src="../images/gulangyu1.jpg" id="sim235829" class="main_img" style="width:320px; height:280px;">
+                        <div id="bc235829" class="MagicZoomBigImageCont" style="width: 280px; height: 280px; overflow: hidden; z-index: 100; visibility: visible; position: absolute; top: -10000px; left: 335px; display: block;">
+                          <div style="overflow: hidden;"><img src="file:///C:/Documents%20and%20Settings/Administrator/%E6%A1%8C%E9%9D%A2/%E7%BA%BA%E7%BB%87%E5%93%81%E5%85%AC%E5%8F%B8%E7%BD%91%E7%AB%99%EF%BC%88%E7%89%A9%E6%B5%81%E8%B4%B8%E6%98%93%E7%B1%BB%EF%BC%89%20-%20%E5%89%AF%E6%9C%AC/images/pro1.jpg" style="position: relative; border-width: 0px; padding: 0px; left: -482.5px; top: -174.286px; display: block; visibility: visible;"></div>
+                          <div style="color: rgb(255, 0, 0); font-size: 10px; font-weight: bold; font-family: Tahoma; position: absolute; width: 100%; text-align: center; left: 0px; top: 260px;"></div>
+                        </div>
+                        <div class="MagicZoomPup" style="z-index: 10; visibility: hidden; position: absolute; opacity: 0.5; width: 110px; height: 96px; left: 193px; top: 61px;"></div>
+                        </a> 
+                        <div style="float:left; margin-left:30px; margin-top:30px;">
+                        	<p style="font-size:16px; font-family:'微软雅黑';">景点名称：鼓浪屿</p>
+                            <p style="font-size:16px; font-family:'微软雅黑';">景点风格：海岛景观秀丽多姿，享誉中外</p>
+                            <p style="font-size:16px; font-family:'微软雅黑';">景点特点：古典与时尚交融</p>
+                            <p style="font-size:16px; font-family:'微软雅黑';">气候环境：温暖湿润</p>
+                            <p style="font-size:16px; font-family:'微软雅黑';">文化财富："音乐家摇篮"</p>
+                            <p style="font-size:16px; font-family:'微软雅黑';">设计理念：设计理念源自于鎏金的岁月<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;像流光，它们春所现实与过<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;去天上地下旋转着徇烂在清<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;婉的生命音符里</p>
+                          
+                        </div>
+                        </div>
+                    </div>
+                  </div>
+                  <div style="clear:both;"></div>
+                </div>
+              </div>
+            </div>
+            <div class="inner_bottom"></div>
+          </div>
+          <div style="width: 678px;float:left;margin-left: 60px;margin-top: 20px; line-height: 30px;text-indent: 2em;font-size: 14px;">
+            <p style=" font-size:14px; font-family:'微软雅黑';">鼓浪屿风景区与厦门市区隔海相对，面积1.78平方公里，海岛景观秀丽多姿，享誉中外，是国家级重点风景名胜区。岛上海岸线蜿蜒曲折、坡缓沙细的天然海滨浴场环布四周，鬼斧神工的礁石奇趣天成，令人遐想万千。岛上岗恋起伏，错落有致，最高峰日光岩是厦门的象征，历来有"未上日光岩等于没到厦门"之说。岛上四季如春，气候宜人，树木繁茂，鸟语花香，空气清新，令人心旷神怡;山和海相拥，自然造化和人工雕凿相映成趣，日光岩、菽庄花园、皓月园、毓园等更为园中胜景。</p>
+            <p style=" font-size:14px; font-family:'微软雅黑';">由于历史原因，中外风格各异的建筑物在此地被完好地汇集、保留，有“万国建筑博览”之称。龙头路商业街诸多火热商铺都有贩卖各种厦门特色小吃，此岛还是音乐的沃土，人才辈出，钢琴拥有密度居全国之冠，又得美名“钢琴之岛”、“音乐之乡”，是一个非常浪漫的旅游景点。有乡贤林承强题联赞曰：鼓浪悬帆今胜昔，堆金积玉慨而慷。</p>
+          </div>
+        </div>
+      </div>
+      <div class="clear"></div>
+    </div>
+  </div>
+</div>
+<div class="clear"></div>
+<div id="footer">
+  <div class="footer_text">
+     <div class="footer_nav"><a href="about.html">个人简介</a> | <a href="painting.html">作品集</a> | <a href="picture.html">照片墙</a> | <a href="message.html">在线留言</a> | <a href="contact.html">联系我</a> | <a href="#">友情链接</a></div>
+      <div class="copyright">Powered By 陈昕煜</div>
+  </div>
+</div>
+</div>
+</body>
+</html>
